@@ -9,7 +9,7 @@ This is an introductory survey course of Python, HTML, JavaScript, and SQL.
 ## Weekly Topics
 - hello, world
 - scratch, git, & shell
-- SQL % intro to javascript
+- SQL & intro to javascript
 - javascript - variables & operators
 - javascript - control flow
 - javascript - functions
