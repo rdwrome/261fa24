@@ -72,9 +72,6 @@ Final Project | 30%
       - You include a screenshot of your interaction with chat-GPT in your Documentation File.
       - You write out *in your own words* your understanding of what you learned from using chat-GPT.
 
-### Tutor Info
-- TBD
-
 ## Instructor Info
 ### <u>Rachel Devorah Wood Rome, Ph.D.</u>
 - pronouns & honorific: she/her/hers & dr.or prof.
@@ -88,14 +85,17 @@ Final Project | 30%
 
 ## Policies
 ### Communication
-- This is an equitable learning environment.
-	- Problem-solve constructively with respectful language;
-	- Be patient with yourselves and others (especially when mistakes are made);
-	- Never posture/pose/attitudinize;
+- This is an equitable learning environment:
+  - Use inclusive language.
+	- Problem-solve constructively with respectful language.
+	- Be patient with yourselves and others (especially when mistakes are made).
+  - Accept constructive criticism gracefully.
+	- Never posture/pose/attitudinize.
 	- Always speak up and admit when you do not understand something.
+  - Always try keep the needs of *whole* classroom community in mind.
 - When you email me, please let me know what class/section you're in.
 - The best way to communicate with me outside of class is *always* to make an appointment with me in my office hour.
-- If you'd like constructive criticism on music, I'm happy to give that in my office hour in real-time. I won't give feedback on recordings via email.
+- If you'd like constructive criticism on music beyond what happens in class, I'm happy to give that in my office hour in real-time. I won't give feedback on recordings via email.
 - I don't answer emails that can be answered with a one-step Google search (i.e. “How do I change the timezone on my Google Calendar?”).
 - I don't necessarily answer emails outside of working hours (M-F, 9-5)
 - I don't answer emails when the answer can be found in the syllabus (here).
