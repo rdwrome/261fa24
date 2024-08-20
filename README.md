@@ -10,7 +10,7 @@ This is an introductory survey course of Python, HTML, JavaScript, and SQL.
 - hello, world
 - scratch, git, & shell
 - SQL & intro to javascript
-- javascript - variables & operators
+- javascript - operators & bindings
 - javascript - control flow
 - javascript - functions
 - midterm presentations
@@ -24,11 +24,11 @@ This is an introductory survey course of Python, HTML, JavaScript, and SQL.
 
 ## Class Resources
 
-**[Think Python, Second Edition](http://greenteapress.com/thinkpython2/html/index.html)**
-Allen B. Downey, 2015
-
 **[Eloquent JavaScript, Third Edition](https://eloquentjavascript.net/)**
 Marijn Haverbeke, 2018
+
+**[Think Python, Second Edition](http://greenteapress.com/thinkpython2/html/index.html)**
+Allen B. Downey, 2015
 
 ### Everyday Tools
 
