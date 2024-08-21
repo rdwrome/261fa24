@@ -95,6 +95,8 @@
   - audio
   - divisions
   - css!
+  
+  ### Adding JavaScript!
 
 - **HTML+CSS Resources**
 	- [HTML4 vs. HTML5 and browser info](https://www.wpkube.com/html5-cheat-sheet/)

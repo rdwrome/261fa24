@@ -131,6 +131,8 @@
 - Go back to Pseudocoding
 - Break everything down into the smallest unit you can
 
+## MarkDown and refresher of Documentation requirements
+
 ## JavaScript
 
 **Why?**

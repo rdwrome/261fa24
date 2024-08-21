@@ -4,7 +4,7 @@
 ## Conditional Statements
 - Control flow is determined by conditional (decision-making) statements
 - Conditional statements use Boolean Logic (testing for truthiness!)
-- Ifare all **iterative** conditional statements, meaning they're not self-referential (more on this later!)
+- If, else and their permutations are all **iterative** conditional statements, meaning they're not self-referential (more on this later!)
 
 ## Code Along
 ```javascript
@@ -59,13 +59,13 @@ if (midiNote < 64) {
 ```javascript
 // while
 let count = 0;
-while (count < 3) {	
+while (count < 3) {
   count += 1;
   console.log("Happy Thursday");
 }
 // while-else
 let count = 0;
-while (count < 3) {	
+while (count < 3) {
   count += 1;
   console.log("Happy Thursday");
 }
@@ -114,7 +114,7 @@ function func(count) {
 func(5);
 ```
 
-## [p5.js](https://editor.p5js.org/) 
+## [p5.js](https://editor.p5js.org/)
 ```javascript
 // count
 function draw() {
@@ -142,5 +142,103 @@ function draw() {
     y = 0;
   }
 }
-```
 
+// draw lines
+let y = 0;
+
+function setup() {
+  createCanvas(300, 300);
+}
+
+function draw() {
+  line(0, y, 300, y);
+  y += 4;
+}
+// draw eye
+function setup() {
+  createCanvas(100, 100);
+  noStroke();
+}
+
+function draw() {
+  background(204);
+  fill(255);
+  ellipse(50, 50, 60, 60);
+  fill(0);
+  ellipse(60, 50, 30, 30);
+  fill(255);
+  ellipse(66, 45, 6, 6);
+}
+
+// two eyes
+function setup() {
+  createCanvas(100, 100);
+  noStroke();
+}
+
+function draw() {
+  background(204);
+
+  // Right Eye
+  fill(255);
+  ellipse(65, 44, 60, 60);
+  fill(0);
+  ellipse(75, 44, 30, 30);
+  fill(255);
+  ellipse(81, 39, 6, 6);
+
+  // Left Eye
+  fill(255);
+  ellipse(20, 50, 60, 60);
+  fill(0);
+  ellipse(30, 50, 30, 30);
+  fill(255);
+  ellipse(36, 45, 6, 6);
+}
+
+//eyes
+function setup() {
+  createCanvas(100, 100);
+  noStroke();
+}
+
+function eye(x, y) {
+  fill(255);
+  ellipse(x, y, 60, 60);
+  fill(0);
+  ellipse(x + 10, y, 30, 30);
+  fill(255);
+  ellipse(x + 16, y - 5, 6, 6);
+}
+
+function draw() {
+  background(204);
+  eye(65, 44);
+  eye(20, 50);
+  eye(65, 74);
+  eye(20, 80);
+  eye(65, 104);
+  eye(20, 110);
+}
+
+// draw eyes
+function setup() {
+  createCanvas(400, 400);
+  noStroke();
+}
+
+function draw() {
+  background(204);
+  eye(mouseX, mouseY);
+}
+
+function eye(x, y) {
+  fill(255);
+  ellipse(x, y, 60, 60);
+  fill(0);
+  ellipse(x + 10, y, 30, 30);
+  fill(255);
+  ellipse(x + 16, y - 5, 6, 6);
+}
+
+```

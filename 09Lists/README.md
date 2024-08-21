@@ -1,3 +1,41 @@
+## Intro to Python
+- High-level = human-readable!
+- General but!
+	- [Modules and libraries can make it more specific](https://wiki.python.org/moin/UsefulModules)
+		- Modules: simple .py file that "abstracts out" specific information (functions, variables, other things)
+		- libraries (or packages) are a collection of modules
+- Interpreted (executed by the interpreter vs. compiled)
+  - Easier to debug
+  - Runs a little slower
+- Object-oriented
+- Scripts are a sequence of definitions and commands executed in the shell
+- #nocommentcomment
+
+ ## [Python vs Javascript](https://www.freecodecamp.org/news/python-vs-javascript-what-are-the-key-differences-between-the-two-popular-programming-languages/)
+
+**[Do You Have Python3?](https://www.python.org/downloads/)**
+
+- More functional standard libraries than 2
+- Some things only supported on 2, though
+  - python --version
+  - python3 --version
+- IF YOU'VE DOWNLOADED PYTHON3 TODAY: open "update shell profile command" in the python3 folder
+- Check your pip!
+	- pip --version
+	- pip3 --version
+
+**Integrated Development Environments (IDE)**
+- Most commonly used for interpreted languages
+- Interpreter helps you debug within the IDE
+
+**Install the Python Extension in VSC**
+
+**Running Python: hands.py**
+  - CLI
+  - IDE
+ 
+ ## SAME POWER QUESTION IN PYTHON NOW!
+
 # Lists
 ## Lists vs Arrays
 - Both are collections of related data in a specific order
