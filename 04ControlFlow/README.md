@@ -114,3 +114,33 @@ function func(count) {
 func(5);
 ```
 
+## [p5.js](https://editor.p5js.org/) 
+```javascript
+// count
+function draw() {
+  console.log(frameCount);
+}
+// draw
+function draw() {
+  line(0, 50, 100, 50);
+}
+// linefill
+let y = 0.0;
+
+function draw() {
+  line(0, y, 100, y);
+  y = y + 0.5;
+}
+// moveline
+let y = 0.0;
+
+function draw() {
+  background(204);
+  line(0, y, 100, y);
+  y = y + 0.5;
+  if (y >= 100) {
+    y = 0;
+  }
+}
+```
+

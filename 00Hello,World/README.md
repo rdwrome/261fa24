@@ -25,6 +25,7 @@
 - Thinking: breaking the steps of a long operation down into small, explicit substeps and anticipating contingencies
   - Cooking with recipes
 - Algorithms: chains of instructions for simple operations that come together to accomplish a complex task
+
 ![](img/algorithm.png)
 
 ## 20 Questions in Boolean Logic
@@ -33,12 +34,12 @@
 - Name+Pronoun
 - Major+Principal Instrument
 - Semester@Berklee
-- Recent or Current Project You're Most Excited About
+- Best thing you ate over break
 - What operating system are you on?
 - How are you doing on storage?
 
 ## Big Picture
-- Survey of a few languages
+- Survey of a few languages (SQL, JavaScript, HTML/CSS, Python)
 - Teaching you to problem-solve patiently, precisely, and creatively to inspire LIFE-LONG LEARNING
 - We'll use [participatory live coding](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008090) / 'chalk and talk' / code along
 - *ALL* the materials of the course are provided for you all together, we'll go through them all together step-by-step
@@ -85,4 +86,4 @@
 - Stack: part of the RAM that remembers variable and function definitions
 - Heap: part of the RAM that remembers data types like lists at an address
 
-## HOMEWORK FOR NEXT CLASS!
+## HOMEWORK FOR NEXT CLASS! Ford Reading!
