@@ -42,12 +42,12 @@ Allen B. Downey, 2015
 Description|Grade
 ---|---:|
 Attendance and Participation| 30%
-Homework (9 assignments)| 30%
+Homework (6 assignments)| 30%
 Midterm | 10%
 Final Project | 30%
 **Total**|**100%**
 
-### ALL DUE DATES ARE IN CANVAS
+### ALL DUE DATES ARE IN UNDER THE "ASSIGNMENTS" SECTION IN CANVAS
 
 ### Steps to submit via GitHub+Canvas
   1. Make a subfolder in *your* GitHub repository named after the assignment (i.e. {yourusername}/itp/scratch, etc.)
