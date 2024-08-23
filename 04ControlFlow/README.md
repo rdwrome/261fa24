@@ -56,6 +56,7 @@ if (midiNote < 64) {
 - If the number is between 12 ~ 3, print out "Boston is in Winter".
 - If the number range is out of 1 ~ 12, print out "There are only 12 months in a year."
 
+## Code Along
 ```javascript
 // while
 let count = 0;

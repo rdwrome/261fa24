@@ -1,28 +1,11 @@
 ## Functions
 - takes input value, does a process to it, returns an output value
 - we've been using many that are already built-in, now we'll write our own!
-- Useful for repetitive code
-```python FIX RACHEL
-# a = x * x * 3.14 is repeatedly used.
+- useful for repetitive code
 
-a = 3.0 * 3.0 * 3.14
-print("The are of circle with radius 3 is: ", a)
-
-a = 5.0 * 5.0 * 3.14
-print("The are of circle with radius 5 is: ", a)
-
-a = 7.0 * 7.0 * 3.14
-print("The are of circle with radius 7 is: ", a)
-
-a = 11.0 * 11.0 * 3.14
-print("The are of circle with radius 11 is: ", a)
+## Code Along in P5.js
+- Repetitive code
 ```
-becomes
-```python
-# Simplify to three lines of code
-# Now we just need to change the number for x
-# to get different answers with the same equation.
-
 function circleArea(x) {
   return x * x * 3.14;
 }
@@ -31,7 +14,6 @@ console.log(circleArea(3.0));
 )
 ```
 
-
 - Function with no input
 ```
 function hello() {
@@ -39,7 +21,6 @@ function hello() {
 }
 
 hello();
-
 ```
 
 - Function with one argument/parameter
@@ -49,7 +30,6 @@ function cube(n) {
 }
 
 console.log(cube(2));
-
 ```
 
 - Function with default argument
@@ -61,8 +41,6 @@ function displayInstrument(name, instrument = "Guitar") {
 displayInstrument("Jennifer");
 displayInstrument("Elizabeth", "Drum");
 displayInstrument("Susan", "Bass");
-
-
 ```
 
 - Function with Multiple Inputs
@@ -72,7 +50,6 @@ function sqr(x, n) {
 }
 
 console.log(sqr(2, 3));
-
 ```
 - Function with Multiple Outputs
 ```
@@ -86,9 +63,7 @@ let secondary = instruments[1];
 let tertiary = instruments[2];
 
 console.log("My Instruments are: " + primary + ", " + secondary + ", " + tertiary);
-
 ```
-
 
 - Nesting Function Calls
 ```
@@ -103,7 +78,6 @@ function repeatLyrics() {
 }
 
 repeatLyrics();
-
 ```
 
 - Function with 'if'
@@ -117,6 +91,7 @@ function minimum(x, y) {
 
 console.log(minimum(3, 4));
 ```
+
 - Function with 'if/else'
 ```
 function factorial(n) {
@@ -141,6 +116,7 @@ console.log(factorial(3));
 
 console.log(sumup(5));
 ```
+
 - Function with local variable
 ```
 function printFavoriteInstrument() {
@@ -156,17 +132,48 @@ function printLeastFavoriteInstrument() {
 printFavoriteInstrument();
 printLeastFavoriteInstrument();
 ```
-- Function with global variable
-```name = input("What is your name? ")
 
-def display_name():
-  global name
-  print("Your name is: ", name)
-  name = input(f"Are you sure your name is {name}? ")
-  print(name)
+## GROUP
+- Write a program that prints out a graph of `y = x^2` (^2 means power of 2) horizontally. The print out of the graph should look like the following:
 
-display_name()
 ```
+****************************************************************
+*************************************************
+************************************
+*************************
+****************
+*********
+****
+*
+
+*
+****
+*********
+****************
+*************************
+************************************
+*************************************************
+****************************************************************
+```
+
+# Continuation from last class
+```
+// draw eye
+function setup() {
+  createCanvas(100, 100);
+  noStroke();
+}
+
+function draw() {
+  background(204);
+  fill(255);
+  ellipse(50, 50, 60, 60);
+  fill(0);
+  ellipse(60, 50, 30, 30);
+  fill(255);
+  ellipse(66, 45, 6, 6);
+}
+
 // two eyes
 function setup() {
   createCanvas(100, 100);
@@ -193,44 +200,6 @@ function draw() {
   ellipse(36, 45, 6, 6);
 }
 
-- GROUP EXERCISE:
-- Write a program that prints out a graph of `y = x^2` (^2 means power of 2) horizontally. The print out of the graph should look like the following:
-
-```
-****************************************************************
-*************************************************
-************************************
-*************************
-****************
-*********
-****
-*
-
-*
-****
-*********
-****************
-*************************
-************************************
-*************************************************
-****************************************************************
-
-- LAST WEEK AND MOVE ON
-// draw eye
-function setup() {
-  createCanvas(100, 100);
-  noStroke();
-}
-
-function draw() {
-  background(204);
-  fill(255);
-  ellipse(50, 50, 60, 60);
-  fill(0);
-  ellipse(60, 50, 30, 30);
-  fill(255);
-  ellipse(66, 45, 6, 6);
-}
 
 //eyes
 function setup() {
@@ -279,3 +248,4 @@ function eye(x, y) {
 
 ```
 
+## BEGIN MIDTERM
