@@ -1,7 +1,6 @@
-# Midterm Project
+# Midterm Project TODO STILL PYTHON
 
-The mid-term project is an opportunity to solidify your newly acquired programming skills in Python. You will focus on using `Processing` to draw a visual object designed by you based on overlapping shapes (circles, triangles, squares, etc.). The goal of this project is to turn your design sketch into computer graphics for tiling. You must use `Processing` for this project.
-
+You will focus on using `P5.js` to draw a visual object designed by you based on overlapping shapes (circles, triangles, squares, etc.). 
 ## Project Procedure
 ### Phase 1: Sketch Your Visual Object
 Sketch your visual object using a pen and graph paper. Remember that your visual object must at least have three shapes. Below is an example object consisting of five shapes drawn on a graph paper:
@@ -17,7 +16,7 @@ It is recommended that your sketch uses basic primitive shapes, such as circle, 
 	- and has at least three shapes.
 - A MarkDown Documentation File
 
-### Phase 2: Translate to Processing.py Sketch
+### Phase 2: Translate to P5.js Sketch
 Using `Procssing`, translate your sketch into a computer graphic representation. Processing (and computer screens) works with a coordinate system. It is essential to realize that the computer screen is nothing more than a fancier piece of graph paper. Each pixel in the screen is a coordinate – two numbers, an `x` (horizontal) and a `y` (vertical) - that determines the location of a point in space. And it is our job to specify what shapes and colors should appear at these pixel coordinates. In the coordinate system for pixels in a computer window, the (0,0) point can be found at the top left with the positive direction to the right horizontally for the x-axis and down vertically for the y-axis. An understanding of this coordinate system will help us draw shapes and set the pixels we want.
 
 If you sketched your object on graph paper, you could give each grid in the graph a unit in pixels. For example, one grid could mean 10 or 100 pixels. We can then use this unit to translate our sketch into a computer graphic representation. The example Processing sketch below shows how this process works:
