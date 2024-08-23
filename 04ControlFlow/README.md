@@ -69,7 +69,6 @@ while (count < 3) {
   count += 1;
   console.log("Happy Thursday");
 }
-
 if (count >= 3) {
   console.log("Happy Friday");
 }
@@ -77,7 +76,6 @@ if (count >= 3) {
 for (let i = 0; i < 128; i++) {
   console.log(`The next MIDI note value is ${i}`);
 }
-
 // Increment by 2 instead
 for (let i = 0; i < 128; i += 2) {
   console.log(`The next MIDI note value is ${i}`);
@@ -88,7 +86,6 @@ for (let i = 1500; i <= 2700; i++) {
     console.log(i);
   }
 }
-
 for (let i = 0; i < 10; i++) {
   for (let j = 0; j < 10; j++) {
     if (j >= i) {
@@ -142,7 +139,6 @@ function draw() {
     y = 0;
   }
 }
-
 // draw lines
 let y = 0;
 
@@ -169,4 +165,4 @@ function draw() {
   fill(255);
   ellipse(66, 45, 6, 6);
 }
-
+```

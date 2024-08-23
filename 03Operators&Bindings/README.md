@@ -116,6 +116,7 @@ console.log(pass);
 - CODE ALONG
 
 ```javascript
+// multiple bindings
 const pi = 3.14;
 const radius = 11;
 const area = pi * (radius ** 2);
@@ -124,28 +125,26 @@ console.log(area);
 // prompt
 const str = prompt("Name: ");
 console.log("Hello, " + str);
+
 // printing parameters and template literals
 console.log("Hello, " + str);
 console.log(`Hello, ${str}`);
+
 // typecasting
 const num = 100;
 const result = String(num);
 console.log(result, typeof result);
-
 const num = 10.45;
 const result = String(num);
 console.log(result, typeof result);
-
 const string = "45";
 const result = parseInt(string);
 console.log(result, typeof result);
-
 const string = "56.83";
 const result = parseFloat(string);
 console.log(result, typeof result);
 
 // printing floating points
-
 const z = 3.14159265358979323846264338327950288419716939937510;
 console.log(`${z}`);
 console.log(z.toFixed(50));
@@ -158,7 +157,7 @@ console.log(`${bananas} bananas were split into ${Math.floor(bananas / bags)} gr
 // special characters
 console.log("col1\tcol2\tcol3\ncol1\tcol2\tcol3\ncol1\tcol2\tcol3");
 ```
-## Exersize:
+## Exercise:
 - Write a program that converts 99 Fahrenheit to Celsius
 - Create two variables, **f** and **c**
 - Use the equation:
