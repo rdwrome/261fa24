@@ -7,8 +7,8 @@
 - Chrome Developer Tools
 - Helpful:
 ```javascript
-	console.log()
-	console.clear()
+console.log()
+console.clear()
 ```
 
 **Values and Operators**
@@ -20,14 +20,14 @@
 - Simple Unary and Binary Operators
 
 ```javascript
-	typeof
-	- (unary and binary)
-	+
-	/
-	*
-	++ (shorthand counter up)
-	-- (shorthand counter down)
-	%
+typeof
+- (unary and binary)
++
+/
+*
+++ (shorthand counter up)
+-- (shorthand counter down)
+%
 ```
 - CODE ALONG
 ```javascript
@@ -42,8 +42,8 @@ console.log(typeof true);          // "boolean"
 	- String literal
 
 - CODE ALONG
-	```javascript
-	// Length of a string
+```javascript
+// Length of a string
 console.log('rachel devorah wood rome'.length);
 
 // Indexing
@@ -60,33 +60,34 @@ console.log('yum'.repeat(3));
 
 // String literal
 `${9/3} little pigs`
-	```
+```
 - Comparison Operators
 
 ```javascript
-	> greater than
-	< less than
-	>= greater than or equal to
-	<= less than or equal to
-	== equal to
-	!= not equal to
+> greater than
+< less than
+>= greater than or equal to
+<= less than or equal to
+== equal to
+!= not equal to
 ```
 - Logical Operators
 
 ```javascript
-	&& and/both
-	|| or/either
-	! not (like logical negative sign)
+&& and/both
+|| or/either
+! not (like logical negative sign)
 ```
 - Conditional/Ternary Operator
-	 - condition ? expression1 : expression2
 
-		```javascript
-		let height = prompt('what is your height in inches?');
-		let pass = (height > 48) ? "Yes, you may ride the rollercoaster." : "Sorry, you may not ride the rollercoaster.";
-		console.log(pass);
-		```
+	 - condition ? expression1 : expression2
+```javascript
+let height = prompt('what is your height in inches?');
+let pass = (height > 48) ? "Yes, you may ride the rollercoaster." : "Sorry, you may not ride the rollercoaster.";
+console.log(pass);
+```
 - NaN and Empty Values
+
 	- NaN = not a number but *should* have been a number
 	- null, undefined = can't compute
 
@@ -113,15 +114,13 @@ console.log('yum'.repeat(3));
 	- scoping scope: can look out into environment
 
 - CODE ALONG
+
 ```javascript
 const pi = 3.14;
 const radius = 11;
 const area = pi * (radius ** 2);
 console.log(area);
-```
 
-- CODE ALONG
-```javascript
 // prompt
 const str = prompt("Name: ");
 console.log("Hello, " + str);
@@ -158,7 +157,7 @@ console.log(`${bananas} bananas were split into ${Math.floor(bananas / bags)} gr
 
 // special characters
 console.log("col1\tcol2\tcol3\ncol1\tcol2\tcol3\ncol1\tcol2\tcol3");
-
+```
 ## Exersize:
 - Write a program that converts 99 Fahrenheit to Celsius
 - Create two variables, **f** and **c**

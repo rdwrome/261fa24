@@ -41,9 +41,9 @@
 <!-- maybe add compiler information from here https://prismia.chat/shared/computing-basics
 maybe add https://swcarpentry.github.io/shell-novice/ -->
 
-## Command Line
+## MAKE SURE your Macintosh HD is visible in your "Finder" Preferences
 
-**MAKE SURE your Macintosh HD is visible in your "Finder" Preferences**
+## Command Line
 
 **Command Line Interfaces (CLI)**
 - Most commonly used for compiled languages
@@ -67,11 +67,8 @@ maybe add https://swcarpentry.github.io/shell-novice/ -->
 	- `say` for fun
 
 ## CLI CODE ALONG
-	Find a [Haiku](https://www.poetryfoundation.org/learn/glossary-terms/haiku-or-hokku) or other very short poem, or a song lyric refrain. Record an .aiff audio file of your computer "saying" the poem with the CLI
-		- Hints:
-			- You'll need to use pwd, ls, and cd to make sure you create the .aiff file in a place you can easily find
-			- You'll need to use -o:
-				`say "hi" -o hi.aiff`
+- You'll need to use pwd, ls, and cd to make sure you create the .aiff file in a place you can easily find
+- `say "hi" -o hi.aiff`
 
 ***More advanced commands***
 
@@ -90,10 +87,8 @@ maybe add https://swcarpentry.github.io/shell-novice/ -->
 ## [Version Control Systems Overview](https://www.geeksforgeeks.org/version-control-systems/)
 
 ### Version Control System Step-up
-- [Install Visual Studio Code](https://code.visualstudio.com/download)
+- [Install Visual Studio Code](https://code.visualstudio.com/download), our text editor for this class
 - Set up a GitHub.com account with a simple username you can use professionally
-- Follow [me](https://github.com/rdwrome)
-- Accept my invitation to join the class private repository
 - Download and install [GitHub Desktop](https://desktop.github.com/)
 - In GitHub Desktop, go to File > Clone Repository and clone the class repository (261)
 - Setup GitHub/save the local file path (where the files are on your computer) somewhere you can easily find the files (i.e. Documents, Desktop NOT iCloud!)
@@ -105,7 +100,7 @@ maybe add https://swcarpentry.github.io/shell-novice/ -->
 - When that has gone through go to Repository > Open in Visual Studio Code (VSC)
 - The README.md file of the repository you created for this class will open in VSC
 
-- CODE ALONG TO MAKE A SUBFOLDER FOR SCRATCH
+## CODE ALONG TO MAKE AN SUBFOLDER FOR SCRATCH
 
 ## [Scratch](https://scratch.mit.edu/)
 - Sprites: characters

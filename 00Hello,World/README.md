@@ -25,6 +25,7 @@
 - Thinking: breaking the steps of a long operation down into small, explicit substeps and anticipating contingencies
   - Cooking with recipes
 - Algorithms: chains of instructions for simple operations that come together to accomplish a complex task
+- That complex task is like a black box
 
 ![](img/algorithm.png)
 
