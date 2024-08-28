@@ -40,7 +40,7 @@ The result of the P5.js sketch with the above code looks like this:
 ![](./img/MusicalNoteProcessing.png)
 
 #### Sketch Requirements
-- Your P5.js sketch
+- Your `P5.js` sketch
 	- is named `Phase2.js`;
 	- accurately translates the original sketch from phase 1; and
 	- has more than three shapes.
@@ -87,7 +87,7 @@ function draw() {
 ```
 
 #### Sketch Requirements
-- Your P5.js sketch
+- Your `P5.js` sketch
 	- is named `Phase3.js`;
 	- implements a function named `drawObject` with three parameters `x`, `y`, and `s`;
 	- uses the `translate()` and `scale()` functions to position and scale your visual object;
@@ -132,8 +132,8 @@ Hint: Use nested for-loops to tile your visual objects. The first loop goes thro
 
 Description|Grade
 ---|---:|
-The documentation is complete and reflects all 4 Phases. | 15%
-Project is presented clearly in class. | 15%
+The documentation is complete and reflects all 4 Phases. | 20%
+Project is presented clearly in class. | 20%
 Phase 1 fulfills the requirements. | 10%
 Phase 2 fulfills the requirements. | 10%
 Phase 3 fulfills the requirements. | 20%
