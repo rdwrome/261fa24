@@ -1,7 +1,5 @@
-# Midterm Project TODO STILL PYTHON
+# Midterm Project
 
-You will focus on using `P5.js` to draw a visual object designed by you based on overlapping shapes (circles, triangles, squares, etc.). 
-## Project Procedure
 ### Phase 1: Sketch Your Visual Object
 Sketch your visual object using a pen and graph paper. Remember that your visual object must at least have three shapes. Below is an example object consisting of five shapes drawn on a graph paper:
 
@@ -14,25 +12,26 @@ It is recommended that your sketch uses basic primitive shapes, such as circle, 
 	- is named `Phase1`;
 	- uses a graph paper or illustration app;
 	- and has at least three shapes.
-- A MarkDown Documentation File
 
 ### Phase 2: Translate to P5.js Sketch
-Using `Procssing`, translate your sketch into a computer graphic representation. Processing (and computer screens) works with a coordinate system. It is essential to realize that the computer screen is nothing more than a fancier piece of graph paper. Each pixel in the screen is a coordinate – two numbers, an `x` (horizontal) and a `y` (vertical) - that determines the location of a point in space. And it is our job to specify what shapes and colors should appear at these pixel coordinates. In the coordinate system for pixels in a computer window, the (0,0) point can be found at the top left with the positive direction to the right horizontally for the x-axis and down vertically for the y-axis. An understanding of this coordinate system will help us draw shapes and set the pixels we want.
+Using `P5.js`, translate your sketch into a computer graphic representation. P5.js works with a coordinate system. It is essential to realize that the computer screen is nothing more than a fancier piece of graph paper. Each pixel in the screen is a coordinate – two numbers, an `x` (horizontal) and a `y` (vertical) - that determines the location of a point in space. And it is our job to specify what shapes and colors should appear at these pixel coordinates. In the coordinate system for pixels in a computer window, the (0,0) point can be found at the top left with the positive direction to the right horizontally for the x-axis and down vertically for the y-axis. An understanding of this coordinate system will help us draw shapes and set the pixels we want.
 
-If you sketched your object on graph paper, you could give each grid in the graph a unit in pixels. For example, one grid could mean 10 or 100 pixels. We can then use this unit to translate our sketch into a computer graphic representation. The example Processing sketch below shows how this process works:
 
-```Python
-def setup():
-    size(150, 150) # Set the size of canvas
-    noStroke() # Disable drawing the stroke
+```
+function setup() {
+  createCanvas(150, 150); // Set the size of canvas
+  noStroke(); // Disable drawing the stroke
+}
 
-def draw():
-    fill(0) # Fill in with black color
-    rect(40, 10,  60, 10) # Draw rectangles
-    rect(40, 10,  5, 50)
-    rect(100, 10,  5, 50)
-    ellipse(30, 60, 30, 20) # Draw ellipses
-    ellipse(90, 60, 30, 20)
+function draw() {
+  fill(0); // Fill in with black color
+  rect(40, 10,  60, 10); // Draw rectangles
+  rect(40, 10,  5, 50);
+  rect(100, 10,  5, 50);
+  ellipse(30, 60, 30, 20); // Draw ellipses
+  ellipse(90, 60, 30, 20);
+}
+
 ```
 
 We can see in the original sketch that the visual object is composed of three rectangles and two ellipses. The example sketch assumes 10 pixels per grid for translation. In the `setup()` function, we change the canvas size to 150 px x 150 px using the `size()` function. We also tell Processing that we do not want to draw any stroke using the `noStroke()` function. In the `draw()` function, we tell Processing to fill all shapes with black color using the `fill()` function. We then use the `rect()` function to draw three rectangles. The first two inputs of the `rect()` function are x- and y-coordinates where we want to draw the rectangle. The last two inputs specify the size of the rectangle in terms of its width and height in pixels. Finally, we use the `ellipse()` function to draw two ellipses. The inputs to the `ellipse()` function is the same as the `rect()` function. The result of the Processing sketch with the above code looks like this:
@@ -65,26 +64,30 @@ Now try calling the `drawObject()` function another time right after the first o
 
 Suppose we do not want the second function call to be affected by any transformations from the first function call. In that case, we need to use the [`push()`](https://processing.org/reference/push_.html) and [`pop()`](https://processing.org/reference/pop_.html) functions to save and restore the current drawing style settings and transformations. Go back to the definition for the `drawObject()` function and add the `push()` function at the beginning. Add the `pop()` function at the end of the `drawObject()` function. The `push()` and `pop()` functions work in pairs and must always be present together. With these changes, your second function call in the `draw()` function should not affect the first function call.
 
-```Python
-def setup():
-    size(400, 400) # Set the size of canvas
-    noStroke() # Disable drawing the stroke
+```
+function setup() {
+  createCanvas(400, 400); // Set the size of canvas
+  noStroke(); // Disable drawing the stroke
+}
 
-def drawObject(x,y,s):
-    push()
-    translate(x,y)
-    scale(s)
-    fill(0) # Fill in with black color
-    rect(40, 10,  60, 10) # Draw rectangles
-    rect(40, 10,  5, 50)
-    rect(100, 10,  5, 50)
-    ellipse(30, 60, 30, 20) # Draw ellipses
-    ellipse(90, 60, 30, 20)
-    pop()
+function drawObject(x, y, s) {
+  push();
+  translate(x, y);
+  scale(s);
+  fill(0); // Fill in with black color
+  rect(40, 10, 60, 10); // Draw rectangles
+  rect(40, 10, 5, 50);
+  rect(100, 10, 5, 50);
+  ellipse(30, 60, 30, 20); // Draw ellipses
+  ellipse(90, 60, 30, 20);
+  pop();
+}
 
-def draw():
-    drawObject(0,0,1)
-    drawObject(0,200,1)
+function draw() {
+  drawObject(0, 0, 1);
+  drawObject(0, 200, 1);
+}
+
 ```
 
 #### Sketch Requirements
