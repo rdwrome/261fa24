@@ -3,6 +3,7 @@
 ## [An outstanding Final Project](https://dylanever.itch.io/ibi)
 
 ## LMSC-261 recommendations for final projects:
+  - P5.js
   - [A-Frame](https://aframe.io/)
   - [RenPy](https://www.renpy.org/)
   - [Adafruit](https://www.adafruit.com/)
@@ -11,8 +12,8 @@
   - Portfolio Website
 
 ## Housekeeping
-  - Final Project Proposal - due week after next (see FPP.md in this folder)
-  - Band Site Project - due next week (see Band.md in this folder)
+  - Final Project Proposal - due next week before class (see FPP.md in this folder)
+  - Band Site Project - due next week during class (see Band.md in this the `08Network` folder)
 
 ## Anatomy of a Website
 ![](img/anatomyofsite.png)

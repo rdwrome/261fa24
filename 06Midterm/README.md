@@ -126,7 +126,7 @@ Hint: Use nested for-loops to tile your visual objects. The first loop goes thro
 ## Submission
 - Make a folder inside your itp GitHub repository called 'midterm'
 - The midterm file should contain 5 files total: Phases 1-4 project files, your documentation file
-- Push your 'Mmdterm' folder to GitHub as you have done for previous assignments in the class and submit the link to that folder in Canvas
+- Push your 'midterm' folder to GitHub as you have done for previous assignments in the class and submit the link to that folder in Canvas, as always
 
 ## Grading Rubric
 
