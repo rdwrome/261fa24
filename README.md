@@ -80,7 +80,7 @@ Final Project | 30%
 - Office Hours:
 	- Tuesdays 1pm-3pm EST.
 	- Meetings will *always* take place in person at 1126 Boylston Room 208.
-	- Walk-ins welcome, but preference is given to those who make [appointments here.](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUJvY3FWa3g0b3dhfGRlZmF1bHR8OTk1YzM0YTAxMDljZGU5MGEzZjQxNzViOWQ2ZTM3NjA)
+	- Walk-ins welcome, but preference is given to those who make [appointments here.](https://calendar.app.google/esA3g5XQbn11cTen9)
 	- If you are not available during my office hour, you are welcome to use Berklee Google Calendar (be signed into your own account and search for "r.d.w.rome") to look at my whole calendar and make an appointment that way. It is up-to-date; no need to email me. Just drop the appointment in my calendar.
 
 ## Policies
