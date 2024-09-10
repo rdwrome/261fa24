@@ -23,13 +23,12 @@
 
 ## While you Code
 
-### Always be Documenting (especially your debugging!)
+### Always be Documenting 
 - Including your Pseudocode!
 - Documentation outline in the syllabus
+	- Debugging 
+	- Code Reuse!
 
-### Code Reuse
-- Stand on the shoulders of giants
-- Be a good collaborator
 
 ## Tower of Babel (Review of Reading)
 
@@ -86,7 +85,8 @@ maybe add https://swcarpentry.github.io/shell-novice/ -->
 - [Install Visual Studio Code](https://code.visualstudio.com/download), our text editor for this class
 - Set up a GitHub.com account with a simple username you can use professionally
 - Download and install [GitHub Desktop](https://desktop.github.com/)
-- In GitHub Desktop, go to File > Clone Repository and clone the class repository (261)
+- Sign in to GitHub Desktop using your GitHub.com username
+- In GitHub Desktop, go to File > Clone Repository and clone the class repository (https://github.com/rdwrome/261???)
 - Setup GitHub/save the local file path (where the files are on your computer) somewhere you can easily find the files (i.e. Documents NOT iCloud!)
 - Go to File > New repository
 - Create a new repository called "itp"
@@ -99,6 +99,8 @@ maybe add https://swcarpentry.github.io/shell-novice/ -->
 ## CODE ALONG TO MAKE AN SUBFOLDER FOR SCRATCH
 
 ## [Markdown 101](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+## Documentation reminder!
 
 ## [Scratch](https://scratch.mit.edu/)
 - Sprites: characters
