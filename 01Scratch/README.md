@@ -16,32 +16,28 @@
 - Break down the way to solve to problem into the smallest tasks possible, but in the language you speak to yourself
 - Think like a computer, be literal! Algorithmic thinking!
 
-### Simon Says Pseudocode Share and Pair
+### Simon Says Pseudocode Share and Pair <--! or pbj video https://www.youtube.com/watch?v=okkIyWhN0iQ -->
 - Imagine we are each a dancing machine.
 - Give us precise instructions for a simple dance using at least one function, at least one condition, and at least one loop.
 - I'll do it if you don't want but I'll be tough!
 
 ## While you Code
 
-### Pseudocode to start
+### Always be Documenting (especially your debugging!)
+- Including your Pseudocode!
+- Documentation outline in the syllabus
 
 ### Code Reuse
 - Stand on the shoulders of giants
 - Be a good collaborator
 
-### Always be Documenting
-- Documentation outline in the syllabus
-
 ## Tower of Babel (Review of Reading)
-
-### Stack vs. Heap Review
-- Stack: part of the RAM that remembers variable and function definitions
-- Heap: part of the RAM that remembers data types like lists at an address
 
 <!-- maybe add compiler information from here https://prismia.chat/shared/computing-basics
 maybe add https://swcarpentry.github.io/shell-novice/ -->
 
 ## MAKE SURE your Macintosh HD is visible in your "Finder" Preferences
+- Make sure Documents is in username folder (not iCloud)
 
 ## Command Line
 
@@ -67,7 +63,7 @@ maybe add https://swcarpentry.github.io/shell-novice/ -->
 	- `say` for fun
 
 ## CLI CODE ALONG
-- You'll need to use pwd, ls, and cd to make sure you create the .aiff file in a place you can easily find
+-  Navigate to Documents folder
 - `say "hi" -o hi.aiff`
 
 ***More advanced commands***
@@ -91,7 +87,7 @@ maybe add https://swcarpentry.github.io/shell-novice/ -->
 - Set up a GitHub.com account with a simple username you can use professionally
 - Download and install [GitHub Desktop](https://desktop.github.com/)
 - In GitHub Desktop, go to File > Clone Repository and clone the class repository (261)
-- Setup GitHub/save the local file path (where the files are on your computer) somewhere you can easily find the files (i.e. Documents, Desktop NOT iCloud!)
+- Setup GitHub/save the local file path (where the files are on your computer) somewhere you can easily find the files (i.e. Documents NOT iCloud!)
 - Go to File > New repository
 - Create a new repository called "itp"
 - Check the box that says "Initialize this repository with a README" and check again that your local file path goes somewhere you can easily find; let the repository stay public (for now)
@@ -101,6 +97,8 @@ maybe add https://swcarpentry.github.io/shell-novice/ -->
 - The README.md file of the repository you created for this class will open in VSC
 
 ## CODE ALONG TO MAKE AN SUBFOLDER FOR SCRATCH
+
+## [Markdown 101](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## [Scratch](https://scratch.mit.edu/)
 - Sprites: characters
