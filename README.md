@@ -82,6 +82,12 @@ Final Project | 30%
 	- Walk-ins welcome, but preference is given to those who make [appointments here.](https://calendar.app.google/ER3N9CgnNFRqi8qE6)
 	- If you are not available during my office hour, you are welcome to use Berklee Google Calendar (be signed into your own account and search for "r.d.w.rome") to look at my whole calendar and make an appointment that way. It is up-to-date; no need to email me. Just drop the appointment in my calendar.
 
+## Tutor Info
+### <u>Yorgos Tryfonas</u>
+- pronouns: he/him 
+- Email: [ytryfonas@berklee.edu](ytryfonas@berklee.edu)
+- Office Hours: [Wednesday 12:15-2:15 by appointment](https://appt.link/meet-with-yorgos-tryfonas-CMTrl50w)
+
 ## Policies
 ### Communication
 - This is an equitable learning environment:

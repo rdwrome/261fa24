@@ -35,6 +35,8 @@
 
 **SQLite is cAsE-sEnSiTiVe**
 
+**Command Line Interface!**
+
 **Statements CODE ALONG**
 
           - sqlite3 nycto261.db //creates database
