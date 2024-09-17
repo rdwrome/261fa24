@@ -35,8 +35,6 @@
 
 **SQLite is cAsE-sEnSiTiVe**
 
-**[Let's create a table for demo data here (you must be signed into your Berklee Google account to access)](https://docs.google.com/spreadsheets/d/1X-W0rR9GqpL1ljVHCzU1cX9qhdfiUnC2dHHLQYLQiw4/edit#gid=0)**
-
 **Statements CODE ALONG**
 
           - sqlite3 nycto261.db //creates database
