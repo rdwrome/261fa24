@@ -25,6 +25,7 @@ typeof
 +
 /
 *
+**
 ++ (shorthand counter up)
 -- (shorthand counter down)
 %
@@ -37,9 +38,10 @@ console.log(typeof "hello,world"); // "string"
 console.log(typeof true);          // "boolean"
 ```
 - Strings
+	- Array of characters where locations are meaningful
+	- Locations are called index (start at 0)
 	- “Bound by Quotations”
-	- Can’t be divided, multiplied, subtracted
-	- String literal
+	- Can’t be divided, multiplied, subtracted, but can be effected
 
 - CODE ALONG
 ```javascript
@@ -60,6 +62,9 @@ console.log('yum'.repeat(3));
 
 // String literal
 `${9/3} little pigs`
+
+// special characters
+console.log("col1\tcol2\tcol3\ncol1\tcol2\tcol3\ncol1\tcol2\tcol3");
 ```
 - Comparison Operators
 
@@ -72,6 +77,7 @@ console.log('yum'.repeat(3));
 != not equal to
 ```
 - Logical Operators
+- Just for Boolean values
 
 ```javascript
 && and/both
@@ -153,9 +159,6 @@ console.log(z.toFixed(50));
 const bags = 3;
 const bananas = 12;
 console.log(`${bananas} bananas were split into ${Math.floor(bananas / bags)} groups to fit into ${bags} bags.`);
-
-// special characters
-console.log("col1\tcol2\tcol3\ncol1\tcol2\tcol3\ncol1\tcol2\tcol3");
 ```
 ## Exercise:
 - Write a program that converts 99 Fahrenheit to Celsius
