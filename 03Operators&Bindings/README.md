@@ -60,7 +60,7 @@ console.log(myName.slice(2, 4));  // from index 2 to 3
 console.log('yum' + 'my');
 console.log('yum'.repeat(3));
 
-// String literal
+// Template literal
 `${9/3} little pigs`
 
 // special characters
@@ -73,8 +73,8 @@ console.log("col1\tcol2\tcol3\ncol1\tcol2\tcol3\ncol1\tcol2\tcol3");
 < less than
 >= greater than or equal to
 <= less than or equal to
-== equal to
-!= not equal to
+=== equal to
+!==  not equal to
 ```
 - Logical Operators
 - Just for Boolean values
@@ -160,7 +160,7 @@ const bags = 3;
 const bananas = 12;
 console.log(`${bananas} bananas were split into ${Math.floor(bananas / bags)} groups to fit into ${bags} bags.`);
 ```
-## Exercise:
+## Solo Exercise:
 - Write a program that converts 99 Fahrenheit to Celsius
 - Create two variables, **f** and **c**
 - Use the equation:

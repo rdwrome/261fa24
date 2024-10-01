@@ -61,6 +61,7 @@ The first 5 integers in the console should look like this:
 
 		#
 ```
+
 3.  Create a file named `chessboard.js`.
 - Write a .js program that uses console.log to print a chess board grid (width =
 height) where the value in a definition of a binding called "size"

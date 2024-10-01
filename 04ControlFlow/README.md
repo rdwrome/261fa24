@@ -6,6 +6,8 @@
 - Conditional statements use Boolean Logic (testing for truthiness!)
 - If, else and their permutations are all **iterative** conditional statements, meaning they're not self-referential (more on this later!)
 
+## .js files in Visual Studio Code
+
 ## Code Along
 ```javascript
 // if
@@ -46,8 +48,8 @@ if (midiNote < 64) {
   console.log("MIDI note is greater than or equal to 64.");
 }
 ```
-## 20-min Group Exercise
-- Create a file named `BOSseasons.py`.
+## Group Exercise
+- Create a file named `BOSseasons.js`.
 - Write a program that prints out the seasons in Boston.
 - Ask the user to input a number between 1 ~ 12.
 - If the number is between 4 ~ 6, print out "Boston is in Spring".
@@ -113,6 +115,9 @@ func(5);
 ```
 
 ## [p5.js](https://editor.p5js.org/)
+- FizzBuzz/Pyramid/ChessBoard assignment due next week is in "vanilla .js"
+- MIDTERM is in p5.js!
+
 ```javascript
 // count
 function draw() {
