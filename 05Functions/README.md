@@ -11,7 +11,6 @@ function circleArea(x) {
 }
 
 console.log(circleArea(3.0));
-)
 ```
 
 - Function with no input
@@ -106,15 +105,16 @@ console.log(factorial(3));
 ```
 
 - Functions with 'for'
-```function sumup(n) {
+```
+function sumup(n) {
   let sum = 0;
   for (let i = 0; i <= n; i++) {
     sum += i;
   }
-  return sum;
+  return sum; 
 }
 
-console.log(sumup(5));
+console.log(sumup(5)); 
 ```
 
 - Function with local variable
