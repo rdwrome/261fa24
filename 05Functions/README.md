@@ -4,13 +4,21 @@
 - useful for repetitive code
 
 ## Code Along in P5.js
-- Repetitive code
+- Function with one argument/parameter
 ```
-function circleArea(x) {
-  return x * x * 3.14;
+function cube(n) {
+  return n * n * n;
 }
 
-console.log(circleArea(3.0));
+console.log(cube(2));
+```
+- Function with Multiple Inputs
+```
+function add(x, n) {
+  return x + n;
+}
+
+console.log(add(2, 3));
 ```
 
 - Function with no input
@@ -20,15 +28,6 @@ function hello() {
 }
 
 hello();
-```
-
-- Function with one argument/parameter
-```
-function cube(n) {
-  return n * n * n;
-}
-
-console.log(cube(2));
 ```
 
 - Function with default argument
@@ -42,14 +41,7 @@ displayInstrument("Elizabeth", "Drum");
 displayInstrument("Susan", "Bass");
 ```
 
-- Function with Multiple Inputs
-```
-function sqr(x, n) {
-  return Math.pow(x, n);
-}
 
-console.log(sqr(2, 3));
-```
 - Function with Multiple Outputs
 ```
 function getInstruments() {
@@ -64,7 +56,7 @@ let tertiary = instruments[2];
 console.log("My Instruments are: " + primary + ", " + secondary + ", " + tertiary);
 ```
 
-- Nesting Function Calls
+- Nested Function Calls
 ```
 function printLyrics() {
   console.log("I'm gonna take my horse to the old town road.");
@@ -91,7 +83,7 @@ function minimum(x, y) {
 console.log(minimum(3, 4));
 ```
 
-- Function with 'if/else'
+- Function with 'if/else' (and recursion!)
 ```
 function factorial(n) {
   if (n === 0) {
@@ -117,7 +109,7 @@ function sumup(n) {
 console.log(sumup(5)); 
 ```
 
-- Function with local variable
+- Function with local scope binding
 ```
 function printFavoriteInstrument() {
   let instrument = prompt("What is your favorite instrument?");

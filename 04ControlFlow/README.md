@@ -48,7 +48,7 @@ if (midiNote < 64) {
   console.log("MIDI note is greater than or equal to 64.");
 }
 ```
-## Group Exercise
+## Group 
 - Create a file named `BOSseasons.js`.
 - Write a program that prints out the seasons in Boston.
 - Ask the user to input a number between 1 ~ 12.
@@ -84,18 +84,22 @@ for (let i = 0; i < 128; i += 2) {
   console.log(`The next MIDI note value is ${i}`);
 }
 // nested for loop
+// First part: Find numbers divisible by both 7 and 5 between 1500 and 2700
 for (let i = 1500; i <= 2700; i++) {
   if (i % 7 === 0 && i % 5 === 0) {
-    console.log(i);
+    console.log(i);  // Output to the console
   }
 }
+
+// Second part: Nested loop to print numbers
 for (let i = 0; i < 10; i++) {
+  let row = ''; // Initialize an empty string for each row
   for (let j = 0; j < 10; j++) {
     if (j >= i) {
-      process.stdout.write(j.toString());
+      row += j.toString(); // Append numbers to the row
     }
   }
-  console.log(); // New line
+  console.log(row); // Output each row in the console
 }
 // infinite recursion
 function func() {
