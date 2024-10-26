@@ -19,7 +19,8 @@ This is an introductory survey course of Python, HTML, JavaScript, and SQL.
 - python - lists
 - python - libraries
 - (final project meetings if time allows)
-- python - webservers
+- [python - webservers](https://www.geeksforgeeks.org/python-api-tutorial-getting-started-with-apis/)
+- intro to machine learning/artificial intelligence
 - final project presentations
 
 ## Class Resources

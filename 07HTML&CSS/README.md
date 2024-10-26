@@ -3,7 +3,7 @@
 ## [An outstanding Final Project](https://dylanever.itch.io/ibi)
 
 ## LMSC-261 recommendations for final projects:
-  - P5.js
+  - P5.js website
   - [A-Frame](https://aframe.io/)
   - [RenPy](https://www.renpy.org/)
   - [Adafruit](https://www.adafruit.com/)
