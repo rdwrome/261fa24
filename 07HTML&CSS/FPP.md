@@ -16,6 +16,10 @@ TODO
 
 TODO
 
+## Will any work as part of this project overlap with any work you are doing outside of this class? For another class? Who is the professor in this class?
+
+TODO
+
 ## In the world of software, most everything takes longer to implement than you expect. And so it's not uncommon to accomplish less in a fixed amount of time than you hope.
 
 ### In a sentence (or list of features), define a GOOD outcome for your final project. I.e., what WILL you accomplish no matter what?
