@@ -14,7 +14,7 @@ at least:
 - 3 paragraph sections (bios for each of you in the band)
 - 3 other assets: could be a hyperlink, a Gif/image, a css file, etc.
 
-Presentation at 11:20, Markdown due at 11:50
+Presentation at 11:20, Markdown due at 11:50am
 
 Every group member submits an individual markdown file to Canvas. The markdown file
 must include:

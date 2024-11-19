@@ -7,9 +7,37 @@
 - Interpreted (executed by the interpreter vs. compiled)
   - Easier to debug
   - Runs a little slower
-- Object-oriented
 - Scripts are a sequence of definitions and commands executed in the shell
 - #nocommentcomment
+- Object-oriented
+
+**Objects**
+- Made up of values (result of calculation) and variables
+- What Python manipulates
+- Almost everything in Python is an object
+- Every object has a **type** that defines the kinds of things that programs can do with that object
+
+
+## Object-oriented programming
+- Some languages can do it, some languages must do it, e.g. javaScript *can* do it, Python *must* do it
+- Principles of OOP
+    - Encapsulation
+  		- object: independent part of the program that manages itself (own rules and ways of doing things)
+      - (objects are what Python manipulates)
+      - objects are reusable
+      - a specific realization of an object is an instance
+  	- Inheritance
+      - objects get their functions from classes
+      - class: template, blueprint for creating objects
+  		- superclass is parent, class is child
+  		- class inherits attributes of parent (through abstraction) but modifies, evolves
+      - classes are reusable
+  	- Polymorphism
+  		- change the way something works by overriding and overloading
+      - change type, have multiple types work together
+  		- overriding: walking to walking backwards
+  		- overloading: walking to running
+
 
  ## [Python vs Javascript](https://www.freecodecamp.org/news/python-vs-javascript-what-are-the-key-differences-between-the-two-popular-programming-languages/)
 
@@ -33,9 +61,15 @@
 **Running Python: hands.py**
   - CLI
   - IDE
- 
- ## SAME POWER QUESTION IN PYTHON NOW!
 
+- CODE ALONG
+```Python
+print(type(10)) #integer
+print(type(10.)) #float
+print(type("hello,world")) #string
+print(type(True)) #boolean
+```
+ 
 # Lists
 ## Lists vs Arrays
 - Both are collections of related data in a specific order
@@ -168,6 +202,13 @@ for instrument in instruments:
 
 print(instruments)
 ```
+## Exersize:
+- Write a program that converts 99 Fahrenheit to Celsius
+- Create two variables, **f** and **c**
+- Use the equation:
+	- Celsius = (Fahrenheit - 32)  5 / 9
+
+## SAME POWER QUESTION IN PYTHON NOW!
 
 ## Modules
 - Extend the capabilities of your program
