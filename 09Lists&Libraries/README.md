@@ -17,7 +17,6 @@
 - Almost everything in Python is an object
 - Every object has a **type** that defines the kinds of things that programs can do with that object
 
-
 ## Object-oriented programming
 - Some languages can do it, some languages must do it, e.g. javaScript *can* do it, Python *must* do it
 - Principles of OOP
@@ -37,7 +36,6 @@
       - change type, have multiple types work together
   		- overriding: walking to walking backwards
   		- overloading: walking to running
-
 
  ## [Python vs Javascript](https://www.freecodecamp.org/news/python-vs-javascript-what-are-the-key-differences-between-the-two-popular-programming-languages/)
 
@@ -202,13 +200,12 @@ for instrument in instruments:
 
 print(instruments)
 ```
-## Exersize:
-- Write a program that converts 99 Fahrenheit to Celsius
+## Exersizes:
+1. Write a program that converts 99 Fahrenheit to Celsius
 - Create two variables, **f** and **c**
 - Use the equation:
 	- Celsius = (Fahrenheit - 32)  5 / 9
-
-## SAME POWER QUESTION IN PYTHON NOW!
+2. Power.md in this folder
 
 ## Modules
 - Extend the capabilities of your program
