@@ -28,31 +28,37 @@
   - but can it learn **beyond its training data**?
 
 ### Types of Machine Learning
-  - Supervised (training data has all the answers)
-  - Unsupervised (anomaly detection)
-  - Semisupervised (partially labelled, looking for patterns)
-  - Reinforcement learning (getting towards AI...like training a dog with positive and negative rewards)
+- Supervised (training data has all the answers)
+- Unsupervised (anomaly detection)
+- Semisupervised (partially labelled, looking for patterns)
+- Reinforcement learning (getting towards AI...like training a dog with positive and negative rewards)
 
 ### Modes
-  - Batch learning (you get all the training data at once)
-  - "Online" learning (system can accept new training data on the go)
-  - Instance-based (commits training data to memory, then compares new data to training data)
-  - Model-based (generalizes from a set of examples then uses that model to make predictions)
+- Batch learning (you get all the training data at once)
+- "Online" learning (system can accept new training data on the go)
+- Instance-based (commits training data to memory, then compares new data to training data)
+- Model-based (generalizes from a set of examples then uses that model to make predictions)
 
-### Problems
-  - Insufficient quantity of training data
-  - Poor quality of training data
-  - Non-representative training data
+### Problems...
+- Insufficient quantity of training data
+- Poor quality of training data
+- Non-representative training data
+- Transparent Data Gathering Practices?
+- Transparent Training Practices?
+- Transparent Model Distribution?
 
-### AI
+### Large Language Models 
+- chatGPT (openAI...Microsoft), llama (META), Gemini (Google)
+- 'Generative AI'
+
+### [Artificial General Intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence)
 - Neural Networks
   - identifies + reproduces patterns in the same way a human brain does
   - used to be called "deep learning"
 - *what can it learn beyond it's training data?*
-  - [Google Neural Network](https://www.wired.co.uk/article/google-ai-language-create)
+- [Agentic AI](https://blogs.nvidia.com/blog/what-is-agentic-ai/)
 
-**Ethics**
-- [Bias in AI](https://www.nytimes.com/2021/03/15/technology/artificial-intelligence-google-bias.html)
+
 
 **Art**
 - [Stephanie Dinkins: Conversations with BINA48](https://www.stephaniedinkins.com/conversations-with-bina48.html)

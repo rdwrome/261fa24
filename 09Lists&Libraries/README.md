@@ -11,14 +11,9 @@
 - #nocommentcomment
 - Object-oriented
 
-**Objects**
-- Made up of values (result of calculation) and variables
-- What Python manipulates
-- Almost everything in Python is an object
-- Every object has a **type** that defines the kinds of things that programs can do with that object
-
 ## Object-oriented programming
 - Some languages can do it, some languages must do it, e.g. javaScript *can* do it, Python *must* do it
+- Almost everything in Python is an object
 - Principles of OOP
     - Encapsulation
   		- object: independent part of the program that manages itself (own rules and ways of doing things)
@@ -40,15 +35,15 @@
  ## [Python vs Javascript](https://www.freecodecamp.org/news/python-vs-javascript-what-are-the-key-differences-between-the-two-popular-programming-languages/)
 
 **[Do You Have Python3?](https://www.python.org/downloads/)**
-
 - More functional standard libraries than 2
 - Some things only supported on 2, though
-  - python --version
-  - python3 --version
+  - `python --version`
+  - `python3 --version`
+- DO YOU NEED TO INSTALL COMMAND LINE TOOLS? YES! PLEASE DO! `xcode-select --install`
 - IF YOU'VE DOWNLOADED PYTHON3 TODAY: open "update shell profile command" in the python3 folder
 - Check your pip!
-	- pip --version
-	- pip3 --version
+	- `pip --version`
+	- `pip3 --version`
 
 **Integrated Development Environments (IDE)**
 - Most commonly used for interpreted languages
@@ -67,6 +62,16 @@ print(type(10.)) #float
 print(type("hello,world")) #string
 print(type(True)) #boolean
 ```
+ 
+- Python Function Definition + Call
+  - definition has to come before call, but call happens where call happens
+```python
+#function
+def circle_area(x):
+  return x * x * 3.14
+#call
+print(circle_area(3.0))
+ 
  
 # Lists
 ## Lists vs Arrays
@@ -208,6 +213,7 @@ print(instruments)
 2. Power.md in this folder
 
 ## Modules
+- Hierarchy: built-ins; packages; writing your own packages
 - Extend the capabilities of your program
 - Use the keyword *import* to implement
 - Access variables and functions in the module wusing the **.** operator
